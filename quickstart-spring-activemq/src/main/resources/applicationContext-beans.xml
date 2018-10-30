@@ -9,20 +9,20 @@
 	<bean id="pooledConnectionFactory" class="org.apache.activemq.pool.PooledConnectionFactory" destroy-method="stop">
 		<property name="connectionFactory">
 			<bean class="org.apache.activemq.ActiveMQConnectionFactory">
-				<property name="brokerURL" value="tcp://localhost:61616" />
+				<property name="brokerURL" value="tcp://20.26.39.56:61616" />
 			</bean>
 		</property>
 	</bean>
 
 	<!-- 连接工厂 -->
 	<bean id="activeMQConnectionFactory" class="org.apache.activemq.ActiveMQConnectionFactory">
-		<property name="brokerURL" value="tcp://localhost:61616" />
+		<property name="brokerURL" value="tcp://20.26.39.56:61616" />
 	</bean>
 
 	<!-- 配置消息目标 -->
 	<bean id="destination" class="org.apache.activemq.command.ActiveMQQueue">
 		<!-- 目标，在ActiveMQ管理员控制台创建 http://localhost:8161/admin/queues.jsp -->
-		<constructor-arg index="0" value="hoo.mq.queue" />
+		<constructor-arg index="0" value="queueTest" />
 	</bean>
 
 	<!-- 消息模板 -->

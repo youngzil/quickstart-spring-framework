@@ -6,34 +6,40 @@
  * Copyright asiainfo Corporation 2018
  * 版权所有 *
  */
-package org.quickstart.spring.activemq;
+package org.quickstart.spring.activemq.config;
+
 import java.util.Date;
 import javax.jms.JMSException;
 import javax.jms.MapMessage;
 import javax.jms.Message;
 import javax.jms.Session;
 import org.springframework.context.ApplicationContext;
+import org.springframework.context.support.ClassPathXmlApplicationContext;
 import org.springframework.context.support.FileSystemXmlApplicationContext;
 import org.springframework.jms.core.JmsTemplate;
 import org.springframework.jms.core.MessageCreator;
+
 /**
- * Sender 
- *  
+ * Sender
+ * 
  * @author：yangzl@asiainfo.com
- * @2018年10月30日 下午3:46:12 
+ * @2018年10月30日 下午3:46:12
  * @since 1.0
  */
 public class Sender {
-    
+
     public static void main(String[] args) {
-        ApplicationContext ctx = new FileSystemXmlApplicationContext("classpath:applicationContext-*.xml");
+        // ApplicationContext ctx = new FileSystemXmlApplicationContext("classpath:applicationContext-*.xml");
+        ApplicationContext ctx = new ClassPathXmlApplicationContext("classpath:applicationContext-beans.xml");
+        // ApplicationContext ctx = new ClassPathXmlApplicationContext("classpath:applicationContext-*.xml");
+
         JmsTemplate jmsTemplate = (JmsTemplate) ctx.getBean("jmsTemplate");
- 
+
         jmsTemplate.send(new MessageCreator() {
             public Message createMessage(Session session) throws JMSException {
                 MapMessage message = session.createMapMessage();
                 message.setString("message", "current system time: " + new Date().getTime());
-                
+
                 return message;
             }
         });

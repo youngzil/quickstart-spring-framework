@@ -23,9 +23,8 @@
 	</dependencies>
 
 	<modules>
-		<module>quickstart-spring-framework-annotation</module>
+		<module>quickstart-spring-framework-example</module>
 		<module>quickstart-spring-framework-activemq</module>
-		<module>quickstart-spring-framework-config</module>
 	</modules>
 
 </project>
