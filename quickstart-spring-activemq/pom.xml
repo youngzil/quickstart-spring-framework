@@ -18,32 +18,65 @@
 		<spring.version>4.3.20.RELEASE</spring.version>
 		<!-- <spring.version>5.1.2.RELEASE</spring.version> -->
 		<activemq.version>5.15.7</activemq.version>
+		<slf4j.version>1.7.25</slf4j.version>
+		<servlet-api.version>4.0.1</servlet-api.version>
 	</properties>
 
 	<dependencies>
 
 		<dependency>
 			<groupId>org.springframework</groupId>
+			<artifactId>spring-webmvc</artifactId>
+		</dependency>
+
+		<dependency>
+			<groupId>javax.servlet</groupId>
+			<artifactId>javax.servlet-api</artifactId>
+			<scope>provided</scope>
+		</dependency>
+
+		<dependency>
+			<groupId>org.springframework</groupId>
+			<artifactId>spring-orm</artifactId>
+		</dependency>
+
+		<dependency>
+			<groupId>org.springframework</groupId>
 			<artifactId>spring-context</artifactId>
-			<version>${spring.version}</version>
 		</dependency>
 
 		<dependency>
 			<groupId>org.springframework</groupId>
 			<artifactId>spring-jms</artifactId>
-			<version>${spring.version}</version>
 		</dependency>
 
 		<dependency>
 			<groupId>org.apache.activemq</groupId>
 			<artifactId>activemq-spring</artifactId>
-			<version>${activemq.version}</version>
+		</dependency>
+		
+		 <dependency>
+            <groupId>javax.annotation</groupId>
+            <artifactId>jsr250-api</artifactId>
+            <version>1.0</version>
+        </dependency>
+        
+        <!-- https://mvnrepository.com/artifact/org.springframework/spring-asm -->
+<dependency>
+    <groupId>org.springframework</groupId>
+    <artifactId>spring-asm</artifactId>
+    <version>3.1.4.RELEASE</version>
+</dependency>
+        
+
+		<dependency>
+			<groupId>org.slf4j</groupId>
+			<artifactId>slf4j-log4j12</artifactId>
 		</dependency>
 
 		<dependency>
 			<groupId>org.springframework</groupId>
 			<artifactId>spring-test</artifactId>
-			<version>${spring.version}</version>
 			<scope>test</scope>
 		</dependency>
 

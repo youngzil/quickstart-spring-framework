@@ -25,6 +25,7 @@
 	<modules>
 		<module>quickstart-spring-framework-example</module>
 		<module>quickstart-spring-framework-activemq</module>
+		<module>quickstart-spring-framework-kafka</module>
 	</modules>
 
 </project>
