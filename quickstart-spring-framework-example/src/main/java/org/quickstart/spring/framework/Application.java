@@ -17,7 +17,7 @@ import org.springframework.context.annotation.Configuration;
 /**
  * Application
  * 
- * @author：yangzl@asiainfo.com
+ * @author：youngzil@163.com
  * @2017年12月11日 上午8:35:22
  * @since 1.0
  */

@@ -22,7 +22,7 @@ import org.springframework.stereotype.Component;
 /**
  * FactoryBeanTest 
  *  
- * @author：yangzl@asiainfo.com
+ * @author：youngzil@163.com
  * @2018年1月17日 上午9:37:21 
  * @since 1.0
  */

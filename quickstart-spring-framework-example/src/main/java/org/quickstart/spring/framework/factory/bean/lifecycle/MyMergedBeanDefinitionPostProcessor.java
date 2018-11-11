@@ -15,7 +15,7 @@ import org.springframework.beans.factory.support.RootBeanDefinition;
 /**
  * MyMergedBeanDefinitionPostProcessor
  * 
- * @author：yangzl@asiainfo.com
+ * @author：youngzil@163.com
  * @2018年4月17日 下午3:24:59
  * @since 1.0
  */

@@ -16,7 +16,7 @@ import org.springframework.stereotype.Component;
 /**
  * BeanNameAwareTest
  * 
- * @author：yangzl@asiainfo.com
+ * @author：youngzil@163.com
  * @2018年1月16日 下午10:17:30
  * @since 1.0
  */

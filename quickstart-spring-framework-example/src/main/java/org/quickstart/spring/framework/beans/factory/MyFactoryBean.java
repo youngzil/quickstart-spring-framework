@@ -16,7 +16,7 @@ import org.springframework.beans.factory.FactoryBean;
 /**
  * MyFactoryBean
  * 
- * @author：yangzl@asiainfo.com
+ * @author：youngzil@163.com
  * @2018年4月16日 下午5:57:18
  * @since 1.0
  */

@@ -14,7 +14,7 @@ import org.springframework.context.ApplicationListener;
 /**
  * EmailListener
  * 
- * @author：yangzl@asiainfo.com
+ * @author：youngzil@163.com
  * @2018年1月17日 上午10:31:21
  * @since 1.0
  */

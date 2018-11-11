@@ -14,7 +14,7 @@ import org.springframework.stereotype.Component;
 /**
  * MessagePrinter
  * 
- * @author：yangzl@asiainfo.com
+ * @author：youngzil@163.com
  * @2017年12月11日 上午8:34:48
  * @since 1.0
  */

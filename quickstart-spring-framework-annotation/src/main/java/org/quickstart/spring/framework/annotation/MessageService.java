@@ -11,7 +11,7 @@ package org.quickstart.spring.framework.annotation;
 /**
  * MessageService
  * 
- * @author：yangzl@asiainfo.com
+ * @author：youngzil@163.com
  * @2017年12月11日 上午8:34:25
  * @since 1.0
  */

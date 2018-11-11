@@ -16,7 +16,7 @@ import org.springframework.beans.factory.config.ConfigurableListableBeanFactory;
 /**
  * MyBeanFactoryPostProcessor
  * 
- * @author：yangzl@asiainfo.com
+ * @author：youngzil@163.com
  * @2018年4月17日 下午3:23:45
  * @since 1.0
  */

@@ -14,7 +14,7 @@ import java.util.Map;
 /**
  * StaticCarFactory
  * 
- * @author：yangzl@asiainfo.com
+ * @author：youngzil@163.com
  * @2018年1月17日 上午9:49:59
  * @since 1.0
  */

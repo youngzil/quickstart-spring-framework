@@ -18,7 +18,7 @@ import org.springframework.jms.core.JmsTemplate;
 /**
  * Receiver
  * 
- * @author：yangzl@asiainfo.com
+ * @author：youngzil@163.com
  * @2018年10月30日 下午4:21:14
  * @since 1.0
  */

@@ -22,7 +22,7 @@ import org.springframework.jms.core.MessageCreator;
 /**
  * Sender
  * 
- * @author：yangzl@asiainfo.com
+ * @author：youngzil@163.com
  * @2018年10月30日 下午3:46:12
  * @since 1.0
  */

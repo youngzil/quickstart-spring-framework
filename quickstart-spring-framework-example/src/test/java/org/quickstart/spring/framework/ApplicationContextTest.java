@@ -15,7 +15,7 @@ import org.springframework.context.support.FileSystemXmlApplicationContext;
 /**
  * ApplicationContextTest
  * 
- * @author：yangzl@asiainfo.com
+ * @author：youngzil@163.com
  * @2018年1月16日 下午9:54:34
  * @since 1.0
  */

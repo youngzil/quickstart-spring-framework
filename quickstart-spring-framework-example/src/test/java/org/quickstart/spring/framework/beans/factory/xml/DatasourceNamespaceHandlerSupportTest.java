@@ -13,7 +13,7 @@ import org.springframework.context.support.ClassPathXmlApplicationContext;
 /**
  * DatasourceNamespaceHandlerSupportTest
  * 
- * @author：yangzl@asiainfo.com
+ * @author：youngzil@163.com
  * @2018年4月16日 下午4:07:52
  * @since 1.0
  */
