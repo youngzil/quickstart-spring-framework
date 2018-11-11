@@ -21,6 +21,7 @@ import org.springframework.context.support.ClassPathXmlApplicationContext;
 public class ApplicationTest {
     public static void main(String[] args) {
         ApplicationContext context = new ClassPathXmlApplicationContext("classpath:applicationContext.xml");
+        ApplicationContext context2 = new ClassPathXmlApplicationContext(new String[] {"Spring-Common.xml", "Spring-Connection.xml", "Spring-ModuleA.xml"});
 
         // HelloBean hello = (HelloBean) context.getBean("helloBean");
         // hello.setApplicationContext(context);
