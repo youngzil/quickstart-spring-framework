@@ -27,6 +27,7 @@
 		<module>quickstart-spring-framework-activemq</module>
 		<module>quickstart-spring-framework-kafka</module>
 		<module>quickstart-spring-framework-annotation</module>
-	</modules>
+    <module>quickstart-spring-framework-jooq</module>
+  </modules>
 
 </project>
