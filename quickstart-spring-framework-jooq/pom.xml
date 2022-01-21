@@ -22,7 +22,7 @@
 		<spring.version>4.3.20.RELEASE</spring.version>
 
 		<jooq.version>3.11.7</jooq.version>
-		<h2.version>1.4.197</h2.version>
+		<h2.version>2.1.210</h2.version>
 
 		<slf4j.version>1.7.25</slf4j.version>
 
